@@ -13,12 +13,12 @@ public class DevopsAssP1Application {
 		SpringApplication.run(DevopsAssP1Application.class, args);
 	}
 
-	boolean F = false;
+	boolean T = false;
 	void test_divide() {
 		int z = 0;
-		if (F) {
+		if (T) {
 			// ..
-			z = 3;
+			z = 0;
 
 			byte[] salt = "notrandom".getBytes();
 
